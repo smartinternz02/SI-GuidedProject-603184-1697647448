@@ -1,0 +1,8 @@
+React
+cvzone
+numpy
+CORS
+Flask
+Flask-CORS
+mysql-connector-python
+opencv-python

@@ -1,0 +1,138 @@
+.bg-image,
+.bg-imagel,
+.bg-model-image {
+    background: url("../images/car-image.jpg") no-repeat center/cover;
+}
+
+.bg-login-image,
+.bg-register-image
+{
+    background: url("../images/login-image.jpg") no-repeat center/cover;
+}
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-body
+{
+    justify-content: right;
+}
+
+.card,
+.card-body,
+.card-login,
+.cardl,
+.card-model {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 500px;
+}
+
+.card-register
+{
+    width: 500px;
+}
+
+.card:hover,
+.card-login:hover,
+.cardl:hover,
+.card-register:hover,
+.card-model:hover {
+    transform: scale(1.02);
+}
+
+.display-4 {
+    width: 400px;
+    font-size: 3rem;
+    align-items: end;
+}
+
+.move-up,
+.move-up-login,
+.move-upl,
+.move-up-register {
+    margin-top: -3cm;
+}
+
+.btn-animate {
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-animate:hover {
+    transform: scale(1.1);
+}
+
+.btn-login
+{
+    background-color: aqua;
+}
+
+.padding-register
+{
+    padding-left: 25%;
+}
+
+.btn-register
+{
+    background-color: deepskyblue;
+}
+
+
+/*   ABOUT SECTION   */
+
+.about {
+    margin: 0 auto;
+    padding: 50px;
+    background: linear-gradient(to right, #87CEFA, #90EE90);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
+
+.carousel {
+    padding: 3%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-item p {
+    padding-left: 20px;
+}
+
+.padding-about {
+    padding-top: 5%;
+    padding-left: 60%;
+}
+
+.btn-about {
+    background-color:dodgerblue;
+    width: 200px;
+}
